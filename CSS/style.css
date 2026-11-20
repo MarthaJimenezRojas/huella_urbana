@@ -1,12 +1,60 @@
+:root{
+    --marron: #361111;
+    --terracota: #7B2828;
+    --rojizo: #C13E3E;
+    --clarito: #EEC9C9;
+}
+
+
 body{
-    background-color: #F4959E; 
+    background-color: var(--clarito); 
+    /* colocar una imagen de fondo    */
+    /* background-image: url("../IMG/guarderia.jpg"); */
     color: #41070D;
+    margin: auto;
 }
 
 header{
-    background-color:#41070D;
+    background-color:var(--rojizo);
 }
 
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a{
+    color:var(--marron);
+    text-decoration: none;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    max-width: 100%;
+}
+
+header img{
+    width: 300px;
+    height: 200px;
+}
 p{
     font-size: 20pt;
+}
+
+#eslogan{
+    color:red;
+    font-size: 30pt;
+}
+
+.parrafo{
+    background-color: DarkViolet;
+}
+
+#servicios article img{
+    width: 300px;
+    height: 300px;
 }
